@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvNomorTelepon" type="id" />
+    <item name="mnview" type="id" />
+    <item name="mnedit" type="id" />
+    <item name="tLogin" type="id" />
+    <item name="bRegis" type="id" />
+</resources>

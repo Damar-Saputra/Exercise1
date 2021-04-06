@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConstraintLayout">
-        <activity android:name=".ActivityHasil"></activity>
+        <activity
+            android:name=".ActivityLihatData"
+            android:parentActivityName=".Home_Activity" />
+        <activity
+            android:name=".Home_Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Pendaftaran" />
+        <activity android:name=".ActivityHasil" />
         <activity
             android:name=".ActivityKedua"
             android:label="@string/label2"
@@ -21,10 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_font" />
     </application>
 
 </manifest>

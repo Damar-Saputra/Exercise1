@@ -17,9 +17,9 @@ public class ActivityKedua extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
 
-        String email = bundle.getString(key:"a");
+        String email = bundle.getString("a");
 
-        String pass = bundle.getString(key:"b");
+        String pass = bundle.getString("b");
 
         txEmail.setText(email);
         txPassowrd.setText(pass);
