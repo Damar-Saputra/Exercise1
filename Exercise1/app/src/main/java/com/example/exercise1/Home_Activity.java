@@ -88,7 +88,7 @@ public class Home_Activity extends AppCompatActivity implements PopupMenu.OnMenu
     @Override
     public boolean onMenuItemClick(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-            case R.id.mnview:
+            case R.id.mnView:
                 intent = new Intent(getApplicationContext(), ActivityLihatData.class);
                 intent.putExtras(bundle);
                 startActivity(intent);

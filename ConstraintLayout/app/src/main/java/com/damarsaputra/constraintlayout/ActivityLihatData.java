@@ -1,4 +1,4 @@
-package com.example.exercise1;
+package com.damarsaputra.constraintlayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,17 +8,16 @@ import android.widget.TextView;
 public class ActivityLihatData extends AppCompatActivity {
 
     TextView tvnama, tvnomor;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lihat_data);
 
-        tvnama = findViewById(R.id.tvnamakontak);
-        tvnomor = findViewById(R.id.tvNomorTelpon);
+        tvnama = findViewById(R.id.tvNamaKontak);
+        tvnomor = findViewById(R.id.tvNomorTelepon);
 
         Bundle bundle = getIntent().getExtras();
+
         String nama = bundle.getString("a");
 
         switch (nama)
